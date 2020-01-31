@@ -238,7 +238,7 @@ const STORE = {
           $('.question-form .question').hide();
           $(`.options`).html(
             `<h3 class="great">Great!.....Correct Answer.</h3>
-            <img src="images/happy.png" alt="happy sharpei" class="images" width="150px"><br/>`
+            <img src="happy.png" alt="happy sharpei" class="images" width="150px"><br/>`
           );
           }
         else {
@@ -246,7 +246,7 @@ const STORE = {
           $(`.options`).html(
             `<h3 class="wrong">Sorry!.....Wrong Answer.</h3> 
             <p class="answer"> The answer is:</br> "${currentQues.answer}"</p>
-            <img src="images/sad.png" alt="sad sharpei" class="images" width="150px"><br/>`
+            <img src="sad.png" alt="sad sharpei" class="images" width="150px"><br/>`
           );
         }
   
